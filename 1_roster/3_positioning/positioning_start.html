@@ -8,6 +8,8 @@
   <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
 
   <style>
+
+  /* (1.) how do I make Buffet's picture smaller (2.) how do I make URL links not in blue?*/
     body {
       font-family: 'Merriweather', serif;
     }
@@ -49,32 +51,58 @@
     }
 
     .avatar-image {
-      border-radius: 50%;
+      border-radius: 50%; height:80px; width: 80px;
     }
+
+    .joke {
+      font-family: 'Lato', sans-serif;
+      font-weight: 300;
+      background-color: white;
+      color: black;
+      font-size: 14pt;
+      padding-left: 10px;
+      text-transform: uppercase;
+    }
+
+    table {width:100%
+      ;}
+    td {vertical-align: top;
+    }
+
+
   </style>
 </head>
 <body>
   <img src="booth_logo.jpg">
   <h1>BUS36110 <small>Application Development Spring 2015</small></h1>
 
-  <div class="card">
-    <h2>Instructors</h2>
+  <table>
+  <tr>
 
-    <ul>
-      <li>
-        <img class="avatar-image" src="https://graph.facebook.com/2913578/picture">
-        <div>Raghu Betina</div>
-      </li>
-      <li>
-        <img class="avatar-image" src="https://graph.facebook.com/2/picture">
-        <div>Ben Block</div>
-      </li>
-      <li>
-        <img class="avatar-image" src="https://graph.facebook.com/2/picture">
-        <div>Jerome Goodrich</div>
-      </li>
-    </ul>
-  </div>
+  <td>
+
+    <div class="card">
+      <h2>Instructors</h2>
+
+      <ul>
+        <li>
+          <img class="avatar-image" src="https://graph.facebook.com/2913578/picture">
+          <div>Raghu Betina</div>
+        </li>
+        <li>
+          <img class="avatar-image" src="http://a4.files.biography.com/image/upload/c_fill,cs_srgb,dpr_1.0,g_face,h_300,q_80,w_300/MTE5NTU2MzE2MTY4Njg1MDY3.jpg">
+          <div>Warren Buffet</div>
+
+        </li>
+        <li>
+          <img class="avatar-image" src="http://cp91279.biography.com/1000509261001/1000509261001_1477018906001_Bio-Notorious-A-Ruthless-Legacy-Genghis-Khan-SF.jpg">
+          <div>Genghis Khan</div>
+        </li>
+      </ul>
+    </div>
+  </td>
+
+  <td>
 
   <div class="card">
     <h2>Students</h2>
@@ -83,18 +111,18 @@
       <li>Emilia Pollich</li>
       <li>Judson Kunde</li>
       <li>Kelsie Wolff</li>
-      <li>Howell Wilderman</li>
+      <li>Matt Damon</li>
       <li>Pete Bogisich II</li>
-      <li>Kayley Jakubowski</li>
+      <li>Margaret Thatcher</li>
       <li>Avis Cole</li>
       <li>Vance Huels</li>
-      <li>Lance Lowe</li>
+      <li>George Washington</li>
       <li>Maya Wyman</li>
       <li>Will Herzog Jr.</li>
       <li>Terrence Reynolds</li>
       <li>Sincere Kunde</li>
       <li>Terrell Pouros</li>
-      <li>Abdullah Smith</li>
+      <li>Napoleon Bonaparte</li>
       <li>Adolfo Kihn</li>
       <li>Leanne Powlowski</li>
       <li>Julian Hintz</li>
@@ -102,8 +130,9 @@
       <li>Dixie Bradtke</li>
     </ul>
   </div>
+  </td>
 
-
+  <td>
   <div class="card">
     <h2>Resources</h2>
 
@@ -113,5 +142,17 @@
       <li><a href="http://appdev-summer15.github.io/syllabus/" target="_blank">Course syllabus</a></li>
     </ul>
   </div>
+  </td>
+  </tr>
+
+  <tr>
+     
+     <th colspan='3'>
+        <div class="card joke">
+         For course review, contact <a href="https://www.barackobama.com/"> President Obama </a> or <a href="https://en.wikipedia.org/wiki/Elon_Musk"> Elon Musk </a>
+        </div>
+     </th>
+  </tr>
+  </table>
 </body>
 </html>

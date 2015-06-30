@@ -1,0 +1,65 @@
+
+    table {
+    font-family: sans-serif; 
+    }
+
+    /* can't figure out how to fix channels section */
+
+    body {
+   	font-size: 6pt;
+    }
+
+    td {
+    vertical-align: top;
+    }
+
+    .canvas {
+    width: 100%;
+    }
+    
+    .wide_input {
+    width:90%;
+    }
+
+    .canvas_section {
+    border: thin black solid; 
+    padding:0 10px;
+    }
+    
+    .subclass {
+    font-style:italic;
+    }
+
+    .sublist {
+    font-style:italic; 
+    margin-top: 0px; 
+    margin-bottom: 0px; 
+    }
+    
+    ul {
+	list-style-type: none;
+  	 padding:0; 
+  	 margin: 0;
+	}
+
+    ol {
+    padding:10px;
+    margin: 0px
+    ;}
+
+    h3 {
+    font-variant: small-caps; 
+    margin-bottom: 0px;
+    }
+
+   /* small caps strategy is placeholder here, not ideal */
+
+    h4 {
+    margin:0; padding: 0; 
+    }
+
+    p {
+    margin:0; padding:0;
+    }
+
+

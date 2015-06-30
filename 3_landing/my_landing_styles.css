@@ -1,9 +1,27 @@
 /* This is here to give everything a red border, just to make it easier to see while developing. */
-* {
-  box-sizing: border-box;
 
-  border: thin red solid;
+
+/* You can turn it off if you want. (delete or comment it out) 
+
+(1.) What is difference between <a> and <div>? 
+(2.) Why are some things red, some things purple text, some things purple backing?
+
+Write your rules below */
+
+table {width:75%;}
+
+.filler {width:28%;}
+
+.icon {
+	display:block;
+	text-align:center;
+	background-color:lightblue;
+	color:white;
+	/*remove later - text-shadow:white 5px 5px; - just for testing */
+	border-radius: 10px;
+	padding: 5px;
+	box-shadow: 2px 2px grey;
+	text-decoration:none;
+
+
 }
-/* You can turn it off if you want. (delete or comment it out) */
-
-/* Write your rules below */
